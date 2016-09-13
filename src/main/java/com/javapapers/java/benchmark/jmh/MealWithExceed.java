@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
  * GKislin
  * 11.01.2015.
  */
-@State(Scope.Thread)
+@State(Scope.Benchmark)
 public class MealWithExceed {
     private final LocalDateTime dateTime;
 

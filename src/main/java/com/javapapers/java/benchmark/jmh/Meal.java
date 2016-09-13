@@ -11,7 +11,7 @@ import java.time.LocalTime;
  * GKislin
  * 11.01.2015.
  */
-@State(Scope.Thread)
+@State(Scope.Benchmark)
 public class Meal {
     private final LocalDateTime dateTime;
 
