@@ -45,7 +45,7 @@
                     <arguments>
                         <argument>-classpath</argument>
                         <classpath />
-                        <argument>com.javapapers.java.benchmark.jmh.JMHHelloWorld</argument>
+                        <argument>com.javapapers.java.benchmark.jmh.JMHTestStream</argument>
                     </arguments>
                 </configuration>
             </plugin>
