@@ -45,7 +45,7 @@
                     <arguments>
                         <argument>-classpath</argument>
                         <classpath />
-                        <argument>com.javapapers.java.benchmark.jmh.JMHTestStream</argument>
+                        <argument>isr.ek0.testjmh.JMHTestStream</argument>
                     </arguments>
                 </configuration>
             </plugin>

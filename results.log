@@ -14,7 +14,7 @@
 # Timeout: 10 min per iteration
 # Threads: 1 thread, will synchronize iterations
 # Benchmark mode: Average time, time/op
-# Benchmark: com.javapapers.java.benchmark.jmh.JMHTestStream.mapS
+# Benchmark: JMHTestStream.mapS
 
 # Run progress: 0,00% complete, ETA 00:02:00
 # Fork: 1 of 1
@@ -75,7 +75,7 @@ Result "mapS":
 # Timeout: 10 min per iteration
 # Threads: 1 thread, will synchronize iterations
 # Benchmark mode: Average time, time/op
-# Benchmark: com.javapapers.java.benchmark.jmh.JMHTestStream.streamParallelS
+# Benchmark: JMHTestStream.streamParallelS
 
 # Run progress: 33,33% complete, ETA 00:01:39
 # Fork: 1 of 1
@@ -136,7 +136,7 @@ Result "streamParallelS":
 # Timeout: 10 min per iteration
 # Threads: 1 thread, will synchronize iterations
 # Benchmark mode: Average time, time/op
-# Benchmark: com.javapapers.java.benchmark.jmh.JMHTestStream.streamS
+# Benchmark: JMHTestStream.streamS
 
 # Run progress: 66,67% complete, ETA 00:00:49
 # Fork: 1 of 1

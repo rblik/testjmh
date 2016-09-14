@@ -1,4 +1,4 @@
-package com.javapapers.java.benchmark.jmh;
+package isr.ek0.testjmh;
 
 import org.openjdk.jmh.annotations.Scope;
 import org.openjdk.jmh.annotations.State;
