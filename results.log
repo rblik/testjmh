@@ -1,0 +1,203 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Java Benchmark JMH 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:exec (default-cli) @ testjmh ---
+# JMH 1.10.3 (released 425 days ago, please consider updating!)
+# VM version: JDK 1.8.0_101, VM 25.101-b13
+# VM invoker: C:\Program Files\Java\jdk1.8.0_101\jre\bin\java.exe
+# VM options: -server
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.javapapers.java.benchmark.jmh.JMHTestStream.mapS
+
+# Run progress: 0,00% complete, ETA 00:02:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 3147,180 us/op
+# Warmup Iteration   2: 3397,876 us/op
+# Warmup Iteration   3: 3346,871 us/op
+# Warmup Iteration   4: 3085,639 us/op
+# Warmup Iteration   5: 2926,830 us/op
+# Warmup Iteration   6: 2970,676 us/op
+# Warmup Iteration   7: 2886,248 us/op
+# Warmup Iteration   8: 2880,915 us/op
+# Warmup Iteration   9: 2880,461 us/op
+# Warmup Iteration  10: 2873,247 us/op
+# Warmup Iteration  11: 2867,037 us/op
+# Warmup Iteration  12: 2868,698 us/op
+# Warmup Iteration  13: 2879,724 us/op
+# Warmup Iteration  14: 2860,735 us/op
+# Warmup Iteration  15: 2866,219 us/op
+# Warmup Iteration  16: 2881,119 us/op
+# Warmup Iteration  17: 2961,462 us/op
+# Warmup Iteration  18: 2934,218 us/op
+# Warmup Iteration  19: 2953,675 us/op
+# Warmup Iteration  20: 2950,967 us/op
+Iteration   1: 2932,717 us/op
+Iteration   2: 2935,237 us/op
+Iteration   3: 2943,034 us/op
+Iteration   4: 2937,844 us/op
+Iteration   5: 2932,232 us/op
+Iteration   6: 2939,758 us/op
+Iteration   7: 2944,612 us/op
+Iteration   8: 2948,335 us/op
+Iteration   9: 2896,819 us/op
+Iteration  10: 2944,396 us/op
+Iteration  11: 2951,687 us/op
+Iteration  12: 2942,303 us/op
+Iteration  13: 2965,515 us/op
+Iteration  14: 2946,847 us/op
+Iteration  15: 2954,994 us/op
+Iteration  16: 2971,227 us/op
+Iteration  17: 2965,855 us/op
+Iteration  18: 2941,910 us/op
+Iteration  19: 2957,900 us/op
+Iteration  20: 2973,522 us/op
+
+
+Result "mapS":
+  2946,337 ?(99.9%) 14,744 us/op [Average]
+  (min, avg, max) = (2896,819, 2946,337, 2973,522), stdev = 16,979
+  CI (99.9%): [2931,593, 2961,081] (assumes normal distribution)
+
+
+# JMH 1.10.3 (released 425 days ago, please consider updating!)
+# VM version: JDK 1.8.0_101, VM 25.101-b13
+# VM invoker: C:\Program Files\Java\jdk1.8.0_101\jre\bin\java.exe
+# VM options: -server
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.javapapers.java.benchmark.jmh.JMHTestStream.streamParallelS
+
+# Run progress: 33,33% complete, ETA 00:01:39
+# Fork: 1 of 1
+# Warmup Iteration   1: 1518,356 us/op
+# Warmup Iteration   2: 1393,627 us/op
+# Warmup Iteration   3: 1410,213 us/op
+# Warmup Iteration   4: 1408,388 us/op
+# Warmup Iteration   5: 1349,317 us/op
+# Warmup Iteration   6: 1274,889 us/op
+# Warmup Iteration   7: 1264,169 us/op
+# Warmup Iteration   8: 1264,630 us/op
+# Warmup Iteration   9: 1272,783 us/op
+# Warmup Iteration  10: 1264,081 us/op
+# Warmup Iteration  11: 1273,978 us/op
+# Warmup Iteration  12: 1246,585 us/op
+# Warmup Iteration  13: 1278,279 us/op
+# Warmup Iteration  14: 1279,097 us/op
+# Warmup Iteration  15: 1268,583 us/op
+# Warmup Iteration  16: 1260,240 us/op
+# Warmup Iteration  17: 1260,250 us/op
+# Warmup Iteration  18: 1258,490 us/op
+# Warmup Iteration  19: 1266,583 us/op
+# Warmup Iteration  20: 1259,273 us/op
+Iteration   1: 1223,556 us/op
+Iteration   2: 1293,722 us/op
+Iteration   3: 1235,781 us/op
+Iteration   4: 1267,704 us/op
+Iteration   5: 1264,735 us/op
+Iteration   6: 1259,937 us/op
+Iteration   7: 1256,637 us/op
+Iteration   8: 1298,286 us/op
+Iteration   9: 1275,288 us/op
+Iteration  10: 1306,150 us/op
+Iteration  11: 1280,169 us/op
+Iteration  12: 1272,805 us/op
+Iteration  13: 1275,166 us/op
+Iteration  14: 1275,214 us/op
+Iteration  15: 1277,202 us/op
+Iteration  16: 1268,886 us/op
+Iteration  17: 1285,904 us/op
+Iteration  18: 1277,495 us/op
+Iteration  19: 1273,192 us/op
+Iteration  20: 1276,894 us/op
+
+
+Result "streamParallelS":
+  1272,236 ?(99.9%) 16,456 us/op [Average]
+  (min, avg, max) = (1223,556, 1272,236, 1306,150), stdev = 18,951
+  CI (99.9%): [1255,780, 1288,692] (assumes normal distribution)
+
+
+# JMH 1.10.3 (released 425 days ago, please consider updating!)
+# VM version: JDK 1.8.0_101, VM 25.101-b13
+# VM invoker: C:\Program Files\Java\jdk1.8.0_101\jre\bin\java.exe
+# VM options: -server
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.javapapers.java.benchmark.jmh.JMHTestStream.streamS
+
+# Run progress: 66,67% complete, ETA 00:00:49
+# Fork: 1 of 1
+# Warmup Iteration   1: 2479,496 us/op
+# Warmup Iteration   2: 2322,067 us/op
+# Warmup Iteration   3: 2319,942 us/op
+# Warmup Iteration   4: 2213,287 us/op
+# Warmup Iteration   5: 2169,617 us/op
+# Warmup Iteration   6: 2163,269 us/op
+# Warmup Iteration   7: 2180,457 us/op
+# Warmup Iteration   8: 2152,491 us/op
+# Warmup Iteration   9: 2153,633 us/op
+# Warmup Iteration  10: 2154,975 us/op
+# Warmup Iteration  11: 2148,436 us/op
+# Warmup Iteration  12: 2153,287 us/op
+# Warmup Iteration  13: 2148,889 us/op
+# Warmup Iteration  14: 2145,952 us/op
+# Warmup Iteration  15: 2147,415 us/op
+# Warmup Iteration  16: 2142,683 us/op
+# Warmup Iteration  17: 2163,426 us/op
+# Warmup Iteration  18: 2143,924 us/op
+# Warmup Iteration  19: 2140,813 us/op
+# Warmup Iteration  20: 2167,030 us/op
+Iteration   1: 2147,784 us/op
+Iteration   2: 2137,561 us/op
+Iteration   3: 2164,148 us/op
+Iteration   4: 2141,226 us/op
+Iteration   5: 2120,604 us/op
+Iteration   6: 2164,274 us/op
+Iteration   7: 2157,195 us/op
+Iteration   8: 2138,755 us/op
+Iteration   9: 2151,378 us/op
+Iteration  10: 2155,177 us/op
+Iteration  11: 2146,243 us/op
+Iteration  12: 2149,393 us/op
+Iteration  13: 2159,530 us/op
+Iteration  14: 2167,552 us/op
+Iteration  15: 2159,781 us/op
+Iteration  16: 2146,291 us/op
+Iteration  17: 2157,148 us/op
+Iteration  18: 2164,234 us/op
+Iteration  19: 2169,685 us/op
+Iteration  20: 2180,561 us/op
+
+
+Result "streamS":
+  2153,926 ?(99.9%) 11,788 us/op [Average]
+  (min, avg, max) = (2120,604, 2153,926, 2180,561), stdev = 13,575
+  CI (99.9%): [2142,138, 2165,714] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:02:29
+
+Benchmark                      Mode  Cnt     Score    Error  Units
+JMHTestStream.mapS             avgt   20  2946,337 ? 14,744  us/op
+JMHTestStream.streamParallelS  avgt   20  1272,236 ? 16,456  us/op
+JMHTestStream.streamS          avgt   20  2153,926 ? 11,788  us/op
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 02:30 min
+[INFO] Finished at: 2016-09-14T01:10:30+03:00
+[INFO] Final Memory: 8M/245M
+[INFO] ------------------------------------------------------------------------
